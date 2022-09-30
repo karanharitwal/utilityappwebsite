@@ -7,6 +7,7 @@ window.addEventListener('load',()=>{
         let i= inputvalue.value;
         const encoded= encodeURIComponent(i);
         outputvalue.value= encoded;
+        console.log(encoded);
 
 
 
