@@ -1,7 +1,7 @@
 window.addEventListener('load',()=>{
     const generate= document.querySelector('#generate');
     const text= document.querySelector('#input');
-    const container= document.querySelector('#md5-input');
+    const container= document.querySelector('#table-area');
     let row1_data1, row1_data2,row2_data1,row2_data2,row3_data1,row3_data2;
     generate.addEventListener('click',event =>{
         const sha256hash =  CryptoJS.SHA256(text.value);
