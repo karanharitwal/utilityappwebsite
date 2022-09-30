@@ -28,7 +28,7 @@
 #arrow{
     font-size: 12px;
 }
-#red,pre{
+#red{
     color: red;
 }
 a{
@@ -87,3 +87,6 @@ a{
 
 }
 
+body{
+    width: 100vw;
+}

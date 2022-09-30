@@ -74,4 +74,9 @@ background-color: rgba(0,0,0,.03);
     background-color: white;
 
 }
-
+#container{
+    width: 100vw;
+}
+#table-space{
+    overflow: auto;
+}
