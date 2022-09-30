@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="md5generator.css">
+</head>
+<body>
+    <h1> SHA 512 Hash Generator</h1>
+    <p>Use this generator to create an SHA 512 hash of a string</p>
+    <div id="md5-input">
+    <textarea name="input" id="input" cols="100" rows="15" placeholder="Enter your text here"></textarea>
+    <br>
+    
+    <button id="generate">Generate <span>&#10145;</span></button>
+    </div>
+    <br>
+    <p>This sha 512 hash generator is useful for encoding passwords, credit cards numbers and other sensitive date into MySQL, Postgress or other databases. PHP programmers, ASP programmers and anyone developing on MySQL, SQL, Postgress or similar should find this online tool an especially handy resource.</p>
+    <hr>
+    <h2>What is an SHA 512 hash?</h2>
+    <p>SHA-512 is a message-digest algorithm. It's used to compute a hash value in cryptography. So what's an hash function then? Simply put, a hash function takes a block of data and returns a fixed-size bit string (hash value). The data used by hash functions is referred to as a "message", while the computed hash value is referred to as the "message digest".</p>
+    <p>SHA-512, like other hash functions, is used in digital signatures, message authentication codes, to index data in hash tables, for finger-printing, to detect duplicate data, uniquely identify files, and as checksums to detect accidental data corruption.</p>
+    <p>SHA-512 produces a 512-bit (64 bytes) hash value. It's usually represented as a hexadecimal number of 128 digits.</p>
+    <p>The algorithm works in a way where it processes each block of 1024 bits from the message using the result from the previous block. Now, this poses a problem for the first 1024 bit block which can’t use the result from any previous processing. This problem can be solved by using a default value to be used for the first block in order to start off the process. (Have a look at the second-last diagram).</p>
+    <div id = "space"></div>
+    <div id="footer">
+        <div id = "nav">
+            <div id="image-wrapper">
+      <img src="./onlinelogomaker-092822-1806-1671.png" alt=""> 
+      </div>
+    
+      </div>
+      <div id = "navigation-links">
+          <ul > <h3>Our Tools</h3>
+            <li><a href="./Base64_Decode.html">Base64 Decoder/Encoder</a></li>
+            <li><a href="./encoder-decoder.html">Encoder-Decoder</a></li>
+            <li><a href="./md5generator.html">Md5 Generator</a></li>
+            <li><a href="./sha1-generator.html">SHA-1 Generator</a></li>
+            <li><a href="./sha256-generator.html">SHA-256 Generator</a></li>
+            <li><a href="./sha512generator.html">SHA-512 Generator</a></li>
+            <li><a href="./converter.html">Number Converter</a></li>
+            <li><a href="./time-converter.html">Epoch Converter</a></li>
+            <li><a href="./Unit-converter.html">String Functions</a></li>
+            <li><a href="./rgbtohex.html">RGB-HEX Converter</a></li>
+          </ul>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script defer src="./sha512generator.js"></script>
+
+</body>
+</html>
+</body>
+</html>

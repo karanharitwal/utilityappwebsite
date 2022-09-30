@@ -1,0 +1,23 @@
+#input{
+    width: 70vw;
+    height: 40vh;
+    margin-left: 5vw;
+    margin-top: 2vh;
+}
+#generate{
+    background-color: #337ab7;
+    color: white;
+    border-color: #2e6da4;
+    margin-left: 6vw;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 2vh;
+}
+td{
+    padding: 10px 20px;
+    border: 1px solid;
+}
+td:first-child{
+background-color: rgba(0,0,0,.03);
+}

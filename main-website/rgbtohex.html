@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB-To-hex-Converter.</title>
+    <link rel="stylesheet" href="./rgbtohex.css">
+</head>
+<body>
+    <h1>RGB -HEX Color Converter</h1>
+    <div class="flex-display">
+     <div class="rgb">
+     <div class="field">
+      <h3>
+     <span class="circular Red">R</span>
+     Red </h3>
+     <br>
+     <input type="number" id="Red" placeholder="255" max="255" min="0" value="0">
+    </div>
+    <div class="field">
+    <h3>
+    <span class="circular Green">G</span>
+    Green
+    </h3>
+    <br>
+    <input type="number" id="Green" placeholder="255" max="255" min="0" value="0">
+    </div>
+    <div class="field">
+        <h3>
+            <span class="circular Blue">B</span>
+    Blue
+        </h3>
+    <br>
+    <input type="number" id="Blue" placeholder="255" max="255" min="0" value="0">
+    </div>
+    </div>
+    <div class="hex">
+        <h3>Hex Value: </h3>
+        <input type="text" id="Hex" placeholder="#ffffff" value="#000000">
+
+    </div>
+    </div>
+    <div id="flex-button">
+    <div id="converter">
+    <button id="rgbtohex" class="button"> RGB to hex Converter <span>&#10145;</span></button>
+    </div>
+    <div id="converter">
+    <button id="hextorgb" class="button">Hex to RGB Converted<span>&#10145;</span></button>
+    </div>
+    </div>
+    <div id="info">
+    <div id="box"></div>
+    </div>
+    <div id = "space"></div>
+    <div id="footer">
+        <div id = "nav">
+            <div id="image-wrapper">
+      <img src="./onlinelogomaker-092822-1806-1671.png" alt=""> 
+      </div>
+    
+      </div>
+      <div id = "navigation-links">
+          <ul > <h3>Our Tools</h3>
+            <li><a href="./Base64_Decode.html">Base64 Decoder/Encoder</a></li>
+            <li><a href="./encoder-decoder.html">Encoder-Decoder</a></li>
+            <li><a href="./md5generator.html">Md5 Generator</a></li>
+            <li><a href="./sha1-generator.html">SHA-1 Generator</a></li>
+            <li><a href="./sha256-generator.html">SHA-256 Generator</a></li>
+            <li><a href="./sha512generator.html">SHA-512 Generator</a></li>
+            <li><a href="./converter.html">Number Converter</a></li>
+            <li><a href="./time-converter.html">Epoch Converter</a></li>
+            <li><a href="./Unit-converter.html">String Functions</a></li>
+            <li><a href="./rgbtohex.html">RGB-HEX Converter</a></li>
+          </ul>
+      </div>
+    </div>
+    <script defer src="./rgbtohex.js"></script>
+</body>
+</html>

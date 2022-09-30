@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="md5generator.css">
+</head>
+<body>
+    <h1> SHA 256 Hash Generator</h1>
+    <p>Use this generator to create an SHA 256 hash of a string</p>
+    <div id="md5-input">
+    <textarea name="input" id="input" cols="100" rows="15" placeholder="Enter your text here"></textarea>
+    <br>
+    
+    <button id="generate">Generate <span>&#10145;</span></button>
+    </div>
+    <br>
+    <p>This sha 256 hash generator is useful for encoding passwords, credit cards numbers and other sensitive date into MySQL, Postgress or other databases. PHP programmers, ASP programmers and anyone developing on MySQL, SQL, Postgress or similar should find this online tool an especially handy resource.</p>
+    <hr>
+    <h2>What is an SHA 256 hash?</h2>
+    <p>The SHA (Secure Hash Algorithm) is one of a number of cryptographic hash functions. A cryptographic hash is like a signature for a data set. If you would like to compare two sets of raw data (source of the file, text or similar) it is always better to hash it and compare SHA256 values. It is like the fingerprints of the data. Even if only one symbol is changed the algorithm will produce different hash value. SHA256 algorithm generates an almost-unique, fixed size 256-bit (32-byte) hash. Hash is so called a one way function. This makes it suitable for checking integrity of your data, challenge hash authentication, anti-tamper, digital signatures, blockchain.</p>
+    <p>With the newest hardware (CPU and GPU) improvements it is become possible to decrypt SHA256 algorithm back. So it is no longer recommended to use it for password protection or other similar use cases. Some years ago you would protect your passwords from hackers by storing SHA256 encrypted password in the your data base. This is no longer a case.</p>
+    <p>SHA256 algorithm can be still used for making sure you acquired the same data as the original one. For example if you download something you can easily check if data has not changed due to network errors or malware injection. You can compare hashes of your file and original one which is usually provided in the website you are getting data or the file from. </p>
+    <p>SHA-256 is one of the successor hash functions to SHA-1,and is one of the strongest hash functions available. </p>
+    <div id = "space"></div>
+    <div id="footer">
+        <div id = "nav">
+            <div id="image-wrapper">
+      <img src="./onlinelogomaker-092822-1806-1671.png" alt=""> 
+      </div>
+    
+      </div>
+      <div id = "navigation-links">
+          <ul > <h3>Our Tools</h3>
+            <li><a href="./Base64_Decode.html">Base64 Decoder/Encoder</a></li>
+              <li><a href="./encoder-decoder.html">Encoder-Decoder</a></li>
+              <li><a href="./md5generator.html">Md5 Generator</a></li>
+              <li><a href="./sha1-generator.html">SHA-1 Generator</a></li>
+              <li><a href="./sha256-generator.html">SHA-256 Generator</a></li>
+              <li><a href="./sha512generator.html">SHA-512 Generator</a></li>
+              <li><a href="./converter.html">Number Converter</a></li>
+              <li><a href="./time-converter.html">Epoch Converter</a></li>
+              <li><a href="./Unit-converter.html">String Functions</a></li>
+              <li><a href="./rgbtohex.html">RGB-HEX Converter</a></li>
+          </ul>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/sha1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/sha256.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/sha512.js"></script>
+    <script defer src="./sha256generator.js"></script>
+
+</body>
+</html>

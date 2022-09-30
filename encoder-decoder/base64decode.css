@@ -1,0 +1,19 @@
+#code{
+    width: 30vw;
+    height: 30vw;
+    margin-left: 5vw;
+    margin-top: 5vw; 
+    border: 1px solid black;
+}
+#decode_button{
+    margin-top: 1vh;
+    background-color: orange;
+    color: white;
+    
+}
+#encode_button{
+    margin-top: 1vh;
+    background-color: orange;
+    color: white;
+    margin-left: 2vw;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time converter</title>
+    <link rel="stylesheet" href="time-converter.css">
+</head>
+<body>
+    <h1>The Current Epoch Unix Timestamp
+    </h1>
+    <div id="epoch-container">
+    <div id="container1">
+        <div>
+    <h4>Enter a Timestamp</h4>
+    <input type="text" id="unix-timestamp">
+    <br>
+    <span>Supports Unix timestamps in seconds, milliseconds, microseconds and nanoseconds.</span>
+    <br>
+    </div>
+    <div id="unix">
+        <div class="epoch-value"></div>
+        <div class="label">SECONDS SINCE JAN 01 1970. (UTC)</div>
+        <div id="current-time"></div>
+    </div>
+    </div>
+    <button id="Convert" class="epoch">Convert <span>&#10145;</span></button>
+    </div>
+    <h4>Enter a Date & Time</h4>
+    <div id="container">
+        <div id="wrapper">
+            <div id="heading">Year</div>
+            <br>
+            <input id="year" type="number" value="2022" min="1950" max="2150">
+        </div>
+        <div id="wrapper">
+            <div id="heading">Month</div>
+            <br>
+            <input id="month" type="number" value="5" min="0" max="12">
+        </div>
+        <div id="wrapper">
+            <div id="heading">Day</div>
+            <br>
+            <input  id="day" type="number" value="05" min="1" max="31">
+        </div>
+        <div id="wrapper">
+            <div id="heading">Hour(24 hour)</div>
+            <br>
+            <input id="hour" type="number" value="13" min="0" max="24">
+        </div>
+        <div id="wrapper">
+            <div id="heading">Minutes</div>
+            <br>
+            <input id="minutes" type="number" value="36" min="0" max="60">
+        </div>
+        <div id="wrapper">
+            <div id="heading">Seconds</div>
+            <br>
+            <input id="seconds" type="number" value="05" min="0" max="60">
+        </div>
+    </div>
+    <button id="Convert" class="normaltime" id="time">Convert <span>&#10145;</span></button>
+    <script defer src="./Time-converter.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+#input{
+    width: 30vw;
+    height: 30vw;
+    margin-left: 5vw;
+    margin-top: 5vw; 
+}
+#output{
+    width: 30vw;
+    height: 30vw;
+    margin-left: 2vw;
+    margin-top: 5vw; 
+}
+#encode-url-button{
+    background-color: #337ab7;
+    color: white;
+    border-color: #2e6da4;
+    margin-left: 6vw;
+
+}
+#decode-url-button{
+    background-color: #337ab7;
+    color: white;
+    border-color: #2e6da4;
+    margin-left: 1vw;
+
+}
+
+#arrow{
+    font-size: 12px;
+}
+#red,pre{
+    color: red;
+}
+a{
+    color: #337ab7;
+}
